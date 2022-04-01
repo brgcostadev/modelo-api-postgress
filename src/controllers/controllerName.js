@@ -1,4 +1,5 @@
 const instanciaAxios = require("../services/serviceName");
+const connection = require("../database/connection");
 
 const getController = async (req, res) => {
 	try {
